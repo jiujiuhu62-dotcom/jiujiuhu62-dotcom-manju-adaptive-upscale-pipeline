@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-06",
+  "unit_test_execution_date": "2026-11-05",
+  "scope": "Release source files only, excluding Git metadata; original private project is preserved.",
+  "static_scan_invokes_git": false,
+  "static_scan_uploads_files": false,
+  "git_ignore_checks": {
+    "must_ignore_passed": 14,
+    "must_include_passed": 6
+  },
+  "staging_review": "Separate from this source-file scan; inspect the staged manifest before publication.",
+  "unit_tests": {
+    "run": 32,
+    "passed": 32,
+    "failed": 0,
+    "skipped": 0
+  },
+  "offline_demo": {
+    "first_run_succeeded": 4,
+    "second_run_reused": 4,
+    "failed": 0
+  },
+  "gpu_inference_repeated_in_this_audit": false,
+  "checks": [
+    "explicit file allowlist",
+    "real absolute paths",
+    "original image filenames",
+    "common credential patterns",
+    "Python syntax",
+    "JSON parsing",
+    "relative documentation links",
+    "JPEG metadata",
+    "file size limits",
+    "empty directories",
+    "required ignore patterns"
+  ],
+  "findings": [],
+  "file_count_including_audit_and_manifest": 28,
+  "max_file_bytes": 262144,
+  "max_example_image_bytes": 184320,
+  "manual_step": "Review actual staged files using the manual Git commands before committing.",
+  "limitation": "Pattern scanning is not a guarantee of detecting every possible secret."
+}

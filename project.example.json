@@ -1,0 +1,7 @@
+{
+  "comfy_path": "",
+  "python": "",
+  "server": "http://127.0.0.1:8188",
+  "model": "RealESRGAN_x4plus.safetensors",
+  "model_sha256": ""
+}
